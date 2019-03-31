@@ -1,4 +1,4 @@
-package scalatest.processor
+package com.scalatest.processor
 
 import org.apache.spark.sql.Row
 import org.scalatest.{FlatSpec, Matchers}

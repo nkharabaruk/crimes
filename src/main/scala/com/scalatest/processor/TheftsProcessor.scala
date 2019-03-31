@@ -1,4 +1,4 @@
-package scalatest.processor
+package com.scalatest.processor
 
 import java.io.File
 import org.apache.spark.SparkConf

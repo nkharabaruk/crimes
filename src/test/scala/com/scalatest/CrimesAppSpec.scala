@@ -1,4 +1,4 @@
-package scalatest
+package com.scalatest
 
 import org.scalatest._
 
@@ -14,6 +14,6 @@ class CrimesAppSpec extends FlatSpec with Matchers {
   val crimesFolder = "crimes_test"
 
   "The CrimesApp" should "run and print result to console" in {
-    CrimesApp.processor.processThefts( crimesFolder )
+    CrimesApp.main( Array[String]( crimesFolder ) )
   }
 }
